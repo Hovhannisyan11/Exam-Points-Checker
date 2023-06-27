@@ -1,0 +1,41 @@
+input {
+  transition: 0.5s;
+}
+
+input:hover{
+  background-color: gray;
+  transition: 0.5s;
+}
+
+.left {
+  float:left
+}
+
+.right {
+  float: right;
+}
+
+.butt{
+  width: 500px;
+  margin:0 auto;
+  text-align: center;
+}
+
+.h1{
+  width: 500px;
+  margin:0 auto;
+  text-align: center;
+}
+
+.button{
+  padding: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 1s;
+
+}
+
+.button:hover{
+  background-color: pink;
+  transition: 1s;
+}
